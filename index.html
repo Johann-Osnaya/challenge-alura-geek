@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="alura_header">
+        <img src="./images/hearts.png" class="hearts_icon"></img>
+        <h1 class="title">AluraGeek</h1>
+    </header>
+    <main>
+            <form class="form_container" data-form>
+                <h2 class="title form">AGREGAR PRODUCTO:</h2>
+                <div class="error-message"></div>
+                <input name="name" class="name_input" type="text" placeholder="nombre..." data-name required>
+                <input name="price" class="price_input" type="text" placeholder="precio..." data-price required>
+                <input name="image" pattern="(https?:\/\/.*\.(?:png|jpg))" class="image_input" type="text" placeholder="Url de la imagen con terminacion .jpg o png..." data-image required>
+                <div class="form_buttons">
+                    <button type="submit" class="form_action_button  send_button" data-create>Enviar</button>
+                    <button type="button" class="form_action_button  clean_button" data-clean>Limpiar</button>
+                </div>
+            </form>
+        <section class="products_section">
+            <!-- Cards Section -->
+            <!-- <div class="card" id="card-5"><img src="https://i.blogs.es/fa55bb/carne-de-tacos-al-pastor/650_1200.jpg">
+                <div class="card-container--info">
+                    <p class="product_description">Tacos al Pastor</p>
+                    <div class="card-container--value">
+                        <p>$ 24</p>
+                        <i class="delete-button" id="5" data-delete=""></i>
+                    </div>
+                </div>
+            </div> -->
+            <div class="title_products">
+                <h1>MIS PRODUCTOS:</h1>
+            </div>
+            <section class="cards_container" data-cards>
+            </section>
+        </section>
+    </main>
+        <footer>
+            <div class="footer_logo">
+                <img src="./images/hearts.png"></img>
+                <h3>AluraGeek</h3>
+            </div>
+            <p class="copy">DESARROLLADO POR JOHANN OSNAYA</p>
+            <span class="developedFor">Alura latam- 2024</span>
+        </footer>
+        <script src="./js/showCards.js" type="module"></script>
+        <script src="./js/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Funko Pop Boo Mosters Inc.",
+      "price": "600",
+      "image": "https://ss610.liverpool.com.mx/xl/1113081119.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Funko pop Dobby Harry Potter",
+      "price": "500",
+      "image": "https://ss610.liverpool.com.mx/xl/1100007262.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Funko pop Suga BTS",
+      "price": "700",
+      "image": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00088969864048L.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Funko pop Gojo Jujutsu Kaisen",
+      "price": "700",
+      "image": "https://m.media-amazon.com/images/I/61AYI-WVr4L._AC_UF894,1000_QL80_.jpg"
+    }
+  ]
+}
